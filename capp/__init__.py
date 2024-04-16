@@ -13,10 +13,7 @@ application.config['SQLALCHEMY_DATABASE_URI'] = DBVAR
 application.config['SQLALCHEMY_BINDS'] ={'transport': DBVAR}
 
 ### Code Computer
-#application.config['SECRET_KEY'] = '3oueqkfdfas8ruewqndr8ewrewrouewrere44554'
-#DBVAR="postgresql://nmfgaevl:3ImiD59tLZSwLfL1UXA4qSsWq5Aq4k1r@cornelius.db.elephantsql.com/nmfgaevl"
-#application.config['SQLALCHEMY_DATABASE_URI'] = DBVAR 
-#application.config['SQLALCHEMY_BINDS'] ={'transport': DBVAR}
+
 
 
 db = SQLAlchemy(application)
